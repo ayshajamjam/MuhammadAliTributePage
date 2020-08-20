@@ -1,0 +1,74 @@
+.grid-page {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 40px 80px 60px 650px 300px 200px 40px;
+  color: #333333;
+  font-family: 'Cardo', serif;
+}
+
+/* arranging nav */
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  grid-column: 1 / -1;
+}
+
+/* styling links in nav */
+.navigation > div {
+  padding: 15px;
+  text-align: center;
+  color: #333333;
+  font-family: 'Cardo', serif;
+  text-decoration: none;
+}
+
+div a:link{
+  color: #333333;
+  text-decoration: none;
+}
+
+/* hover over links in nav */
+div a:hover{
+  color: hsl(223, 100%, 69%);
+  text-decoration: none;
+}
+
+div a:visited{
+  color: #333333;
+  text-decoration: none;
+}
+
+/* new stuff */
+.video {
+  grid-column: 1 / -1;
+}
+/* new stuff */
+
+/* title */
+.title {
+  font-family: 'Montserrat', sans-serif;
+  grid-column: 1 / -1;
+}
+
+.quote {
+  grid-column: 1 / -1;
+}
+
+.fig {
+  grid-column: 1 / -1;
+}
+
+.fact-list{
+  grid-column: 1 / 5;
+  grid-row: 5 / 6;
+}
+
+.tribute-info {
+  grid-column: 5 / -1;
+  grid-row: 5 / 6;
+}
+
+.social{
+  grid-column: 1 / -1;
+}

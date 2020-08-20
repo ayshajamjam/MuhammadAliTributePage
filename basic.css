@@ -1,0 +1,41 @@
+.arrange {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.grid-page {
+  margin: 30px;
+}
+
+.navigation {
+  align-items: center;
+}
+
+.fig {
+  align-content: center;
+}
+
+#image {
+  width: 490px;
+  height: 550px;
+}
+
+.image-caption{
+  padding-top: 10px;
+}
+
+.fact-list{
+  padding: 10px;
+  align-content: center;
+}
+
+.tribute-info {
+  padding: 20px;
+  align-content: center;
+}
+
+.social{
+  display: flex;
+}
